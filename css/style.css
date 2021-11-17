@@ -28,7 +28,6 @@
 
 .square {
     float: left;
-
     border: 2px solid white;
     color: white;
     display: flex;
@@ -52,4 +51,23 @@
 
 .click-true {
     background-color: green;
+}
+.click-false {
+    background-color: red;
+
+}
+
+#button {
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#game-option, #livello {
+    padding: 10px;
+}
+#play {
+    color:white;
+    font-size: 20px;
 }
